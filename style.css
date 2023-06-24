@@ -1,0 +1,86 @@
+/* .container{
+    display: flex;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(79, 223, 223);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.topnav{
+    background-color: bisque;
+    padding: auto;
+    text-align: center;
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.topnav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.section{
+    /* border: 2px dashed black; */
+    display: flex;
+    justify-content: space-between;
+    /* height: auto; */
+    height: 73vh;
+    
+}
+
+.index{
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid black;
+    order: 1;
+    width: 400px;
+    margin: 5px;
+    background: url('https://img.freepik.com/premium-vector/scenery-mobile-wallpaper-nature-background-with-bamboo-river-portrait-view-vector_619130-625.jpg?w=2000') ;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+}
+
+.content{
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 1px solid black;
+    order: 2;
+    width: 1420px;
+    margin: 5px;
+    background: url('https://1.bp.blogspot.com/-kK7Fxm7U9o0/YN0bSIwSLvI/AAAAAAAACFk/aF4EI7XU_ashruTzTIpifBfNzb4thUivACLcBGAsYHQ/s1280/222.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    
+}
+
+.footer{
+    background-color: antiquewhite;
+    text-align: center;
+    height: 5vh;
+    margin-top: 1vh;
+}
+
+
+
+
+
