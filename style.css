@@ -24,6 +24,8 @@
 
 .topnav a {
     text-decoration: none;
+    margin: 5px;
+    border: none;
     padding: 5px;
     background-color: black;
     color: aliceblue;
@@ -38,9 +40,10 @@
 .section{
     /* border: 2px dashed black; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* height: auto; */
     height: 73vh;
+    /* flex-direction: row; */
     
 }
 
@@ -48,8 +51,9 @@
     background-color: aquamarine;
     text-align: center;
     border: 1px solid black;
-    order: 1;
-    width: 400px;
+    flex: 0.3;
+    /* order: 1; */
+    /* width: 400px; */
     margin: 5px;
     background: url('https://img.freepik.com/premium-vector/scenery-mobile-wallpaper-nature-background-with-bamboo-river-portrait-view-vector_619130-625.jpg?w=2000') ;
     background-size: cover;
@@ -62,8 +66,9 @@
     background-color: blanchedalmond;
     text-align: center;
     border: 1px solid black;
-    order: 2;
-    width: 1420px;
+    flex: 1;
+    /* order: 2; */
+    /* width: 1420px; */
     margin: 5px;
     background: url('https://1.bp.blogspot.com/-kK7Fxm7U9o0/YN0bSIwSLvI/AAAAAAAACFk/aF4EI7XU_ashruTzTIpifBfNzb4thUivACLcBGAsYHQ/s1280/222.jpg');
     background-size: cover;
